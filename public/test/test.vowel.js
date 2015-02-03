@@ -2,7 +2,7 @@ describe("Vowel functions", function(){
   
   describe("isVowel", function(){
 
-    it("should return multiplied values", function(){
+    it("should return if vowel", function(){
 
       expect(isVowel("a")).to.equal(true);
       expect(isVowel("d")).to.equal(false);
