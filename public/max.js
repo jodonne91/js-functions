@@ -4,7 +4,12 @@
 */
 
 function max(a, b) {
-	STUUUFFFF
+
+	if ( a > b ){
+		return a;
+	}
+
+	return b;
 
 }
 
@@ -16,5 +21,7 @@ function max(a, b) {
 
 function maxOfThree(a, b, c) {
 
+	return max(max(a, b), c);
+	
 }
 
